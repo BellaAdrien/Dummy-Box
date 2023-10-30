@@ -8,30 +8,33 @@ header {
 header h1 {
   width: 50% 
   border: 1px pink solid;
-  
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header nav {
   width: 50%;
   border: 1px plum solid;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-figure {
+/* figure {
   background-image: url(https://i.pinimg.com/originals/32/83/9a/32839a7eb0ae452567ea3d4c5b0a7610.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
-}
+} */
 
-img {
+
+ img {
   width: 100%;
-}
+} 
 
 .left-side {
   display: flex;
@@ -60,7 +63,7 @@ img {
 }
 
 .card {
-  width: 45%;
+  width: 15%;
   position: relative;
   margin-top: 20px;
 }
@@ -88,4 +91,19 @@ img {
   position: absolute;
   z-index: 1;
   bottom: 10%;
+}
+
+/* body {
+  background-color: pink;
+
+} */
+
+
+/* #row{
+  width: 128px;
+    height: 128px;
+} */
+
+body {
+  background-color: lightblue;
 }
